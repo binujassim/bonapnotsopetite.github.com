@@ -1,4 +1,25 @@
-h1{
+#header{
+	margin: 2em;
+	text-align: center;
+	font-family: Brush Script MT, cursive;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#container {
+	text-align: right;
+	background-color: MistyRose;
+	padding: 0.5em;
+}
+
+img{
+	background-color: MistyRose;
+}
+
+#text{
+	text-align: left;
+}h1{
 	text-align: center;
 	backgound-colour: MistyRose;
 }
