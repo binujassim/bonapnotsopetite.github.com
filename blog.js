@@ -18,6 +18,14 @@ gotoinsta = function () {
 	jQuery(location).attr('href', 'https://www.instagram.com/bonap.not.so.petite/?hl=en')
 }
 
+gotorecipes = function () {
+	jQuery(location).attr('href', 'recipes.html')
+}
+
+gotoreviews = function() {
+	jQuery(location).attr('herf', 'index.html')
+}
+
 setup = function() {
 	jQuery("#deaconreview").hide()
 	jQuery("#minus").hide()
@@ -25,6 +33,8 @@ setup = function() {
 	jQuery("#minus").click(hidedr)
 	jQuery("#insta").click(gotoinsta)
 	jQuery("#fb").click(gotofb)
+	jQuery("#recipes").click(gotorecipes)
+	jQuery("#reviews").click(gotoreviews)
 }
  
 jQuery(document).ready(setup)
