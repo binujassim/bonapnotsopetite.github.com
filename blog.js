@@ -35,20 +35,20 @@ gotorecipes = function () {
 }
 
 gotoreviews = function() {
-	jQuery(location).attr('href', 'http://bonapnotsopetite.com')
+	jQuery(location).attr('href', 'new.html')
 }
 
 setup = function() {
-	jQuery("#minusdr").hide();
-	jQuery("#deaconreiew").hide();
+	jQuery(hidedr);
+	jQuery(hidecc);
+	jQuery("#plusdr").click(showdr);
+	jQuery("#minusdr").click(hidedr);
 	jQuery("#insta").click(gotoinsta);
 	jQuery("#fb").click(gotofb);
 	jQuery("#recipes").click(gotorecipes);
 	jQuery("#reviews").click(gotoreviews);
 	jQuery("#pluscc").click(showcc);
 	jQuery("#minuscc").click(hidecc);
-	jQuery("#plusdr").click(showdr);
-	jQuery("#minusdr").click(hidedr);
 }
  
 jQuery(document).ready(setup)
