@@ -35,7 +35,7 @@ gotorecipes = function () {
 }
 
 gotoreviews = function() {
-	jQuery(location).attr('href', 'http://bonapnotsopetite.com/index.html')
+	jQuery(location).attr('href', 'index.html')
 }
 
 setup = function() {
