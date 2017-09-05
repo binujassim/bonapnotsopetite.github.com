@@ -35,7 +35,7 @@ gotorecipes = function () {
 }
 
 gotoreviews = function() {
-	jQuery(location).attr('herf', 'reviews.html')
+	history.go(-1);
 }
 
 setup = function() {
