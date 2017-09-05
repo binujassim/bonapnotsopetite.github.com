@@ -1,13 +1,13 @@
 showdr = function() {
-	jQuery("#plus").hide()
+	jQuery("#plusdr").hide()
 	jQuery("#deaconreview").show()
-	jQuery("#minus").show()	
+	jQuery("#minusdr").show()	
 }
 
 hidedr = function() {
-	jQuery("#plus").show()
+	jQuery("#plusdr").show()
 	jQuery("#deaconreview").hide()
-	jQuery("#minus").hide()	
+	jQuery("#minusdr").hide()	
 }
 
 showcc = function() {
@@ -41,8 +41,8 @@ gotoreviews = function() {
 setup = function() {
 	jQuery("#minuscc").hide()
 	jQuery("#minusdr").hide()
-	jQuery("#plus").click(showdr)
-	jQuery("#minus").click(hidedr)
+	jQuery("#plusdr").click(showdr)
+	jQuery("#minusdr").click(hidedr)
 	jQuery("#insta").click(gotoinsta)
 	jQuery("#fb").click(gotofb)
 	jQuery("#recipes").click(gotorecipes)
