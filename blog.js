@@ -35,8 +35,7 @@ gotorecipes = function () {
 }
 
 gotoreviews = function() {
-	history.go(-1);
-}
+	jQuery(location).attr('href', 'index.html')
 
 setup = function() {
 	jQuery("#deaconreview").hide()
