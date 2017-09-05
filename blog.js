@@ -1,13 +1,25 @@
 showdr = function() {
-	jQuery("#plus").hide()
+	jQuery("#plusdr").hide()
 	jQuery("#deaconreview").show()
-	jQuery("#minus").show()	
+	jQuery("#minusdr").show()	
 }
 
 hidedr = function() {
-	jQuery("#plus").show()
+	jQuery("#plusdr").show()
 	jQuery("#deaconreview").hide()
-	jQuery("#minus").hide()	
+	jQuery("#minusdr").hide()	
+}
+
+showcc = function() {
+	jQuery("#pluscc").hide()
+	jQuery("#cheesecake").show()
+	jQuery("#minuscc").show()	
+}
+
+hidecc = function() {
+	jQuery("#pluscc").show()
+	jQuery("#cheesecake").hide()
+	jQuery("#minuscc").hide()	
 }
 
 gotofb = function () {
@@ -28,13 +40,16 @@ gotoreviews = function() {
 
 setup = function() {
 	jQuery("#deaconreview").hide()
-	jQuery("#minus").hide()
-	jQuery("#plus").click(showdr)
-	jQuery("#minus").click(hidedr)
+	jQuery("#minusdr").hide()
+	jQuery("#minuscc").hide()
+	jQuery("#plusdr").click(showdr)
+	jQuery("#minusdr").click(hidedr)
 	jQuery("#insta").click(gotoinsta)
 	jQuery("#fb").click(gotofb)
 	jQuery("#recipes").click(gotorecipes)
 	jQuery("#reviews").click(gotoreviews)
+	jQuery("#pluscc").click(showcc)
+	jQuery("#minuscc").click(hidecc)
 }
  
 jQuery(document).ready(setup)
