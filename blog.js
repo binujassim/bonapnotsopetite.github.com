@@ -36,6 +36,7 @@ gotorecipes = function () {
 
 gotoreviews = function() {
 	jQuery(location).attr('href', 'index.html')
+}
 
 setup = function() {
 	jQuery("#insta").click(gotoinsta)
