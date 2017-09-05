@@ -39,16 +39,16 @@ gotoreviews = function() {
 }
 
 setup = function() {
-	jQuery("#minuscc").hide()
-	jQuery("#minusdr").hide()
-	jQuery("#plusdr").click(showdr)
-	jQuery("#minusdr").click(hidedr)
-	jQuery("#insta").click(gotoinsta)
-	jQuery("#fb").click(gotofb)
-	jQuery("#recipes").click(gotorecipes)
-	jQuery("#reviews").click(gotoreviews)
-	jQuery("#pluscc").click(showcc)
-	jQuery("#minuscc").click(hidecc)
+	jQuery(hidedr);
+	jQuery(hidecc);
+	jQuery("#plus").click(showdr);
+	jQuery("#minus").click(hidedr);
+	jQuery("#insta").click(gotoinsta);
+	jQuery("#fb").click(gotofb);
+	jQuery("#recipes").click(gotorecipes);
+	jQuery("#reviews").click(gotoreviews);
+	jQuery("#pluscc").click(showcc);
+	jQuery("#minuscc").click(hidecc);
 }
  
 jQuery(document).ready(setup)
