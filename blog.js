@@ -38,18 +38,16 @@ gotoreviews = function() {
 	jQuery(location).attr('href', 'index.html')
 
 setup = function() {
-	jQuery("#deaconreview").hide()
-	jQuery("#cheesecake").hide()
-	jQuery("#minusdr").hide()
-	jQuery("#minuscc").hide()
-	jQuery("#plusdr").click(showdr)
-	jQuery("#minusdr").click(hidedr)
 	jQuery("#insta").click(gotoinsta)
 	jQuery("#fb").click(gotofb)
 	jQuery("#recipes").click(gotorecipes)
 	jQuery("#reviews").click(gotoreviews)
+	jQuery("#plusdr").click(showdr)
+	jQuery("#minusdr").click(hidedr)
 	jQuery("#pluscc").click(showcc)
 	jQuery("#minuscc").click(hidecc)
+	jQuery(hidedr)
+	jQuery(hidecc)
 }
  
 jQuery(document).ready(setup)
