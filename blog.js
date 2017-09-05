@@ -39,16 +39,16 @@ gotoreviews = function() {
 }
 
 setup = function() {
-	jQuery(hidedr);
-	jQuery(hidecc);
-	jQuery("#plusdr").click(showdr);
-	jQuery("#minusdr").click(hidedr);
+	jQuery("#minusdr").hide();
+	jQuery("#deaconreiew").hide();
 	jQuery("#insta").click(gotoinsta);
 	jQuery("#fb").click(gotofb);
 	jQuery("#recipes").click(gotorecipes);
 	jQuery("#reviews").click(gotoreviews);
 	jQuery("#pluscc").click(showcc);
 	jQuery("#minuscc").click(hidecc);
+	jQuery("#plusdr").click(showdr);
+	jQuery("#minusdr").click(hidedr);
 }
  
 jQuery(document).ready(setup)
