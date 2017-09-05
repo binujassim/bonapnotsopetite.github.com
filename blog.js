@@ -41,8 +41,8 @@ gotoreviews = function() {
 setup = function() {
 	jQuery(hidedr);
 	jQuery(hidecc);
-	jQuery("#plus").click(showdr);
-	jQuery("#minus").click(hidedr);
+	jQuery("#plusdr").click(showdr);
+	jQuery("#minusdr").click(hidedr);
 	jQuery("#insta").click(gotoinsta);
 	jQuery("#fb").click(gotofb);
 	jQuery("#recipes").click(gotorecipes);
