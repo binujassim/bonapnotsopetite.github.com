@@ -40,6 +40,7 @@ gotoreviews = function() {
 
 setup = function() {
 	jQuery("#deaconreview").hide()
+	jQuery("#cheesecake").hide()
 	jQuery("#minusdr").hide()
 	jQuery("#minuscc").hide()
 	jQuery("#plusdr").click(showdr)
