@@ -81,6 +81,5 @@ setup = function() {
 	jQuery("#plusst").click(showst);
 	jQuery("#minusst").click(hidest);
 }
-}
  
 jQuery(document).ready(setup)
