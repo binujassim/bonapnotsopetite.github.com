@@ -46,6 +46,17 @@ hidest = function() {
 	jQuery("#minusst").hide()	
 }
 
+showcd = function() {
+	jQuery("#pluscd").hide()
+	jQuery("#crispy").show()
+	jQuery("#minuscd").show()	
+}
+
+hidecd = function() {
+	jQuery("#pluscd").show()
+	jQuery("#crispy").hide()
+	jQuery("#minuscd").hide()	
+}
 
 gotofb = function () {
 	jQuery(location).attr('href', 'https://www.facebook.com/BonapNotSoPetite')
@@ -68,6 +79,7 @@ setup = function() {
 	jQuery(hidecc);
 	jQuery(hidebw);
 	jQuery(hidest);
+	jQuery(hidecd);
 	jQuery("#plusdr").click(showdr);
 	jQuery("#minusdr").click(hidedr);
 	jQuery("#insta").click(gotoinsta);
@@ -80,6 +92,8 @@ setup = function() {
 	jQuery("#minusbw").click(hidebw);
 	jQuery("#plusst").click(showst);
 	jQuery("#minusst").click(hidest);
+	jQuery("#pluscd").click(showcd);
+	jQuery("#minuscd").click(hidecd);
 }
  
 jQuery(document).ready(setup)
