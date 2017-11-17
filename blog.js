@@ -92,7 +92,7 @@ setup = function() {
 	jQuery(hidebw);
 	jQuery(hidest);
 	jQuery(hidecd);
-	jQUery(hidelc);
+	jQuery(hidelc);
 	jQuery("#plusdr").click(showdr);
 	jQuery("#minusdr").click(hidedr);
 	jQuery("#insta").click(gotoinsta);
